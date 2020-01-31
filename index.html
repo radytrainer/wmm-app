@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>WMM Application</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel='stylesheet'
+		href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css'>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
+</head>
+
+<body>
+	<nav class="deep-purple darken-1">
+		<div class="nav-wrapper">
+			<div class="row">
+				<div class="col s12">
+					<a href="#!" data-target="mobile-demo" class="sidenav-trigger show-on-large"><i
+							class="material-icons">menu</i></a>
+					<a href="#!" class="brand-logo">WMM Application</a>
+					<ul class="right hide-on-med-and-down">
+						<li><a href="#">Register</a></li>
+						<li><a href="#">Login</a></li>
+						<li><a href="#">Help?</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+	<ul id="mobile-demo" class="sidenav">
+		<li>
+			<div class="user-view deep-purple darken-1" id="cover">
+				<div class="background">
+					<img src="http://placehold.it/640/555">
+				</div>
+				<a href="#!"><img class="circle" src="http://placehold.it/640/333"></a>
+				<a href="#!"><span class="white-text name">Rady Y</span></a>
+				<a href="#!"><span class="white-text email">rady.bmcs@gmail.com</span></a>
+			</div>
+		</li>
+		<li><a href="#">Partner</a></li>
+		<li><a href="#">Family</a></li>
+		<li><a href="#">Docs</a></li>
+		<li>
+			<div class="divider"></div>
+		</li>
+	</ul>
+
+
+	<ul class="tabs tab-demo z-depth-1">
+		<li class="tab col s3"><a class="active" href="#guest">Guest</a></li>
+		<li class="tab col s3"><a href="#drink">Drinks</a></li>
+		<li class="tab col s3"><a href="#food">Food</a></li>
+		<li class="tab col s3"><a href="#table">Table</a></li>
+		<li class="tab col s3"><a href="#other">Others</a></li>
+	</ul>
+
+	<!-- Guest Tab -->
+	<div id="guest" class="col s12">
+		<div class="container">
+			<div class="card">
+				<div class="card-content">
+					<h3>Guests</h3>
+					<blockquote>
+						List of the guests that join wedding day !<br>
+						Thank you for join our wedding !
+					</blockquote>
+					<table id="guest-list">
+						<tr>
+							<th>Action</th>
+							<th>Guest Name</th>
+							<th>Guest Village</th>
+							<th>Guest Province</th>
+							<th>Money</th>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Drink Tab -->
+	<div id="drink" class="col s12">
+		<div class="container">
+			<div class="card">
+				<div class="card-content">
+					<h3>Drinks</h3>
+					<blockquote>
+						List type of drinks for wedding day !<br>
+						Thank you for join our wedding !
+					</blockquote>
+					<table id="drink-list">
+						<tr>
+							<th>Action</th>
+							<th>Drink Name</th>
+							<th>Drink Type</th>
+							<th>Drink Quality</th>
+							<th>Payment</th>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Food Tab -->
+	<div id="food" class="col s12">
+		<div class="container">
+			<div class="card">
+				<div class="card-content">
+					<h3>Foods</h3>
+					<blockquote>
+						List type of foods for wedding day !<br>
+						Thank you for join our wedding !
+					</blockquote>
+					<table id="food-list">
+						<tr>
+							<th>Action</th>
+							<th>Food Name</th>
+							<th>Food Type</th>
+							<th>Food Price</th>
+							<th>Cooker Name</th>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Table Tab -->
+	<div id="table" class="col s12">
+		<div class="container">
+			<div class="card">
+				<div class="card-content">
+					<h3>Wedding Table </h3>
+					<blockquote>
+						List type of table for wedding day !<br>
+						Thank you for join our wedding !
+					</blockquote>
+					<table id="drink-list">
+						<tr>
+							<th>Action</th>
+							<th>Drink Name</th>
+							<th>Drink Type</th>
+							<th>Drink Quality</th>
+							<th>Payment</th>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Moha Tab -->
+	<div id="other" class="col s12">
+		<div class="container">
+			<div class="card">
+				<div class="card-content">
+					<h3>Others</h3>
+					<blockquote>
+						List type of table for wedding day !<br>
+						Thank you for join our wedding !
+					</blockquote>
+					<table id="drink-list">
+						<tr>
+							<th>Action</th>
+							<th>Drink Name</th>
+							<th>Drink Type</th>
+							<th>Drink Quality</th>
+							<th>Payment</th>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Gitter Chat Link -->
+	<div class="fixed-action-btn">
+		<a class="btn-floating btn-large deep-purple darken-1 pulse" href="#">
+			<i class="large material-icons">add</i>
+		</a>
+	</div>
+	<!-- partial -->
+	<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-firestore.js"></script>
+	<script src="js/main.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js'></script>
+	<script src="js/app.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>

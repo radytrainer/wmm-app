@@ -1,0 +1,17 @@
+.card {
+  margin-top: 0 !important;
+}
+
+#guest,
+#drink,
+#food,
+#table,
+#other {
+  height: 100vh;
+  padding-top: 0.5rem;
+  background-color: #eee;
+}
+
+.tabs .tab a {
+  color: #673ab7;
+}
