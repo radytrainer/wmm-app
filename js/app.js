@@ -75,3 +75,28 @@ database.collection('tbl_food').get().then(
         });
     }
 );
+/**
+ * @function: get all table information
+ * 
+ */
+database.collection('tbl_table').get().then(
+    (guests) => {
+        const table = document.querySelector('#table-list');
+        guests.docs.forEach(guest => {
+            const item = `
+                <tr>
+                    <td>
+                        <a href="#"><i class="material-icons red-text">delete</i></a>
+                        <a href="#"><i class="material-icons teal-text">edit</i></a>
+                        <a href="#"><i class="material-icons blue-text">visibility</i></a>
+                    </td>
+                    <td>${guest.data().table}</td>
+                    <td>${guest.data().price}</td>
+                    <td>${guest.data().hall_owner}</td>
+                    <td>${guest.data().hall_price}</td>
+                </tr>
+            `;
+            table.insertAdjacentHTML('beforeend', item);
+        });
+    }
+);

@@ -1,3 +1,5 @@
+
+
 var sidenavs = document.querySelectorAll('.sidenav')
 for (var i = 0; i < sidenavs.length; i++) {
 	M.Sidenav.init(sidenavs[i]);
@@ -38,3 +40,4 @@ var tooltips = document.querySelectorAll('.tooltipped')
 for (var i = 0; i < tooltips.length; i++) {
 	M.Tooltip.init(tooltips[i]);
 }
+
